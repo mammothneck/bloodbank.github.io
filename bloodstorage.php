@@ -13,7 +13,7 @@
     if($conn->connect_error){
         die('connection failed :' .$conn->connect_error);
     }else{
-        $stmt = $conn->prepare("insert into bloodstorage(name,age,gender,bloodgroup,phone ) values (?,?,?,?,?)");
+        $stmt = $conn->prepare("insert into blooddata(name,age,gender,bloodgroup,phone ) values (?,?,?,?,?)");
         $stmt->bind_param("sissi",$name,$age, $gender,$bloodgroup, $phone);
         $stmt->execute();
         echo "registeration successfully";
