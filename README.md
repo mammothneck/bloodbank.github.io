@@ -7,3 +7,4 @@ Step 3:  go to folder of xaamp and in that go to ht docs
 Step 4:  Front end code as well as php code will be imported through git clone command
 
 
+![image](https://github.com/mammothneck/bloodbank.github.io/assets/76951955/5f968c1f-9387-4f0f-80ff-d04cfc293bd8)
